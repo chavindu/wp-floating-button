@@ -1,0 +1,26 @@
+/* css/styles.css */
+
+.floating-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+}
+
+.quote-button {
+    display: block;
+    width: 175px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+    background-color: #FFA500;
+}
